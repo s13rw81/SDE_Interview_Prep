@@ -24,3 +24,4 @@ class Node:
 - Number of edges: If there are n nodes, then there would n-1 edges. Each node, except the root node, will have atleast one incoming link known as an edge.
 - Depth of node x: The depth of node x can be defined as the length of the path from the root to the node x. One edge contributes one-unit length in the path. So, the depth of node x can also be defined as the number of edges between the root node and the node x. The root node has 0 depth.
 - Height of node x: The height of node x can be defined as the longest path from the node x to the leaf node.
+- A collection of disjoint trees is called a [forest](https://cdn.programiz.com/sites/tutorial2program/files/forest_0.png).

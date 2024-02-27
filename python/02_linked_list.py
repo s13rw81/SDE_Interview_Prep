@@ -42,13 +42,12 @@ class LinkedList:
 			self.head = self.head.next
 		else:
 			temp = self.head.next
-
-		while temp.next != None:
-			if temp.data == data:
-				temp = self.head
+			while temp.next != None:
 				if temp.data == data:
-					self.head = temp.next
-					break
+					temp = self.head
+					if temp.data == data:
+						self.head = temp.next
+						break
 				else:
 					temp = temp.next
 

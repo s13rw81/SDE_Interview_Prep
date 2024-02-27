@@ -1,5 +1,7 @@
-class Node:
+# impliment a linked list and its operations
+# add node, delete node, get count, display linked list
 
+class Node:
 	def __init__(self, data, node=None):
 		self.data = data
 		self.next = node
@@ -22,7 +24,6 @@ class LinkedList:
 			last_node = self.head
 			while(last_node.next != None):
 				last_node = last_node.next
-
 			last_node.next = new_node
 
 		print(f"added new node {new_node}")
@@ -41,35 +42,27 @@ class LinkedList:
 			self.head = self.head.next
 		else:
 			temp = self.head.next
-
-		while temp.next != None:
-			if temp.data == data:
-
-
-			temp = self.head
-			if temp.data == data:
-				self.head = temp.next
-				break
-			else:
-				temp = temp.next
+			while temp.next != None:
+				if temp.data == data:
+					temp = self.head
+					if temp.data == data:
+						self.head = temp.next
+						break
+				else:
+					temp = temp.next
 
 
 	def get_list(self):
 		temp = self.head
-
 		output = str()
-
 		while True:
-
-			output = output + temp.__str__()
+			output += temp.__str__()
 			temp = temp.next
 			if temp == None:
 				break
 		
-		output = output + ' ' + str(self.count)
+		output = output + ' | count : ' + str(self.count)
 		print(output)
-
-
 
 def main():
 	ll = LinkedList()
@@ -79,6 +72,8 @@ def main():
 	ll.add_node(29)
 	ll.add_node(15)
 	ll.add_node(90)
+	ll.get_list()
+	ll.delete_node(90)
 	ll.get_list()
 	ll.delete_node(90)
 	ll.get_list()

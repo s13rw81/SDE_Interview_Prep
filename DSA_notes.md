@@ -31,6 +31,20 @@ class Node:
 - Height of node x: The height of node x can be defined as the longest path from the node x to the leaf node.
 - A collection of disjoint trees is called a [forest](https://cdn.programiz.com/sites/tutorial2program/files/forest_0.png).
 
+
+### Binary Tree
+A _binary tree_ is a type of a tree data structure with atmost two children for each node. A node in a binary tree can have zero, one or two nodes and no more.
+
+Binary Tree Travarsal
+
+- Breadth First Search
+	- level order traversal
+- Depth First Search
+	- in order traversal
+	- pre order traversal
+	- post order traversal
+
+
 ---
 
 # Algorithms

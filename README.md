@@ -36,7 +36,6 @@ repo to compile notes and code written to learn data structures and algorithms i
 - AWS
 
 ## 0 day inter view prep (interview questions only)
--------------------------------------------------
 - software development engineer interview questions
 - object oriented programming interview questions
 - python interview questions + https://docs.python.org/3/glossary.html

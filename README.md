@@ -30,7 +30,7 @@ repo to compile notes and code written to learn data structures and algorithms i
 - python, asyncio, design patterns, django, django rest framework, flask, fast api
 - git and github, github actions
 - postgres, SQLAlchemy, mongodb, pymongo, redis, pydantic
-- pytest, coverage
+- pytest, coverage, postman
 - docker, jenkins, nginx
 - http, REST APIs
 - AWS
